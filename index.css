@@ -90,3 +90,14 @@ a {
     color: black;
     text-decoration: none;
 }
+
+footer>p>a {
+    color: darkgray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
