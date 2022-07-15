@@ -39,7 +39,6 @@ header>img {
     height: 6em;
     border-radius: 100%;
     border: 1px solid #fff;
-    box-shadow: rgb(28 32 93) 0px 2px 8px 0px;
 }
 
 header>h1 {
@@ -47,17 +46,36 @@ header>h1 {
     font-size: 0.8em;
     font-weight: bold;
     border-radius: 1em;
-    background-color: #000a;
+    background-color: rgba(0, 0, 0, 0.395);
+    color: #fff;
+    padding: 0.3em 0.6em;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+/* main>p {
+    color: white;
+    text-align: center;
+} */
+
+main>div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>div>p {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.395);
     color: #fff;
     padding: 0.3em 0.6em;
     border: 1px solid #fffa;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-}
-
-main>p {
-    color: white;
-    text-align: center;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 ul {
@@ -69,13 +87,12 @@ ul {
 }
 
 ul>li {
-    background-color: #fffa;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    background-color: rgba(0, 0, 0, 0.395);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     border-radius: 10em;
     padding: 1em;
     margin: 1.4em 0;
-    box-shadow: rgb(28 32 93) 0px 2px 8px 0px;
 }
 
 ul>li>a {
@@ -87,7 +104,7 @@ ul>li>a {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
