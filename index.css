@@ -131,6 +131,14 @@ footer {
     text-align: center;
 }
 
+.discord::after {
+    content: "Discord Lexi 🌸#5513";
+}
+
+#li-discord:hover a div::after {
+    content: "Discord (Click to copy)";
+}
+
 /* animation */
 #li-twitter:hover {
     background-color: #4a9ae986;
