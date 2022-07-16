@@ -156,6 +156,10 @@ footer {
     background-color: #5865f286;
 }
 
+#li-steam:hover {
+    background-color: #00000086;
+}
+
 #li-youtube:hover {
     background-color: #ff000086;
 }
