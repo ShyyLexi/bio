@@ -1,3 +1,3 @@
 function copyDiscord() {
-    navigator.clipboard.writeText("Lexi 🌸#5513");
+    navigator.clipboard.writeText("Lexii#5513");
 }
