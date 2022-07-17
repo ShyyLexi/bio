@@ -11,7 +11,7 @@ function selectTheme(theme) {
 function dark() {
     console.log("dark");
     isDark = true;
-    document.getElementById("btn-darkmode").innerHTML = "<div>Dark</div>";
+    document.getElementById("btn-darkmode").innerHTML = "<div>Light Mode</div>";
     VANTA.FOG({
         el: "#vanta",
         mouseControls: true,
@@ -29,7 +29,7 @@ function dark() {
 function light() {
     console.log("light");
     isDark = false;
-    document.getElementById("btn-darkmode").innerHTML = "<div>Light</div>";
+    document.getElementById("btn-darkmode").innerHTML = "<div>Dark Mode</div>";
     VANTA.FOG({
         el: "#vanta",
         mouseControls: true,
