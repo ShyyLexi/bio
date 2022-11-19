@@ -172,6 +172,10 @@ footer {
     background-color: #ff000086;
 }
 
+#li-reddit:hover {
+    background-color: #FF450086;
+}
+
 /* Darkmode */
 
 @media (prefers-color-scheme: dark) {
@@ -335,14 +339,6 @@ footer {
         text-align: center;
     }
 
-    .discord::after {
-        content: "Discord: lexii#2534";
-    }
-
-    #li-discord:hover a div::after {
-        content: "Discord (Click to copy)";
-    }
-
     /* animation */
     #li-twitter:hover {
         background-color: #4a9ae986;
@@ -366,5 +362,9 @@ footer {
 
     #li-youtube:hover {
         background-color: #ff000086;
+    }
+
+    #li-reddit:hover {
+        background-color: #FF450086;
     }
 }
