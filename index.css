@@ -164,6 +164,10 @@ footer {
     background-color: #5865f286;
 }
 
+#li-vrc:hover {
+    background-color: #00000086;
+}
+
 #li-steam:hover {
     background-color: #00000086;
 }
@@ -354,6 +358,10 @@ footer {
 
     #li-discord:hover {
         background-color: #5865f286;
+    }
+
+    #li-vrc:hover {
+        background-color: #FFFFFF86;
     }
 
     #li-steam:hover {
