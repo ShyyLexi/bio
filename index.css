@@ -133,6 +133,7 @@ ul>li {
 
 ul>li:hover {
     transform: scale(1.07);
+    border-radius: 15px;
 }
 
 ul>li>a {
