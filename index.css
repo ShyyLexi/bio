@@ -201,6 +201,10 @@ footer {
     background-color: #FF450086;
 }
 
+#li-insta:hover {
+    background: linear-gradient(90deg, rgba(131,58,180,.86) 0%, rgba(253,29,29,.86) 50%, rgba(252,176,69,.86) 100%);
+}
+
 /* Darkmode */
 /*@media (prefers-color-scheme: dark) {
     
