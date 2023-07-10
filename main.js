@@ -1,3 +1,3 @@
 function copyDiscord() {
-    navigator.clipboard.writeText("shyyluna");
+    navigator.clipboard.writeText("shyylexi");
 }
